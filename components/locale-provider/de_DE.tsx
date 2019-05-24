@@ -9,12 +9,16 @@ export default {
   DatePicker,
   TimePicker,
   Calendar,
+  global: {
+    placeholder: 'Bitte auswählen',
+  },
   Table: {
     filterTitle: 'Filter-Menü',
     filterConfirm: 'OK',
     filterReset: 'Zurücksetzen',
     selectAll: 'Selektiere Alle',
     selectInvert: 'Selektion Invertieren',
+    sortTitle: 'Sortieren',
   },
   Modal: {
     okText: 'OK',
@@ -26,6 +30,7 @@ export default {
     cancelText: 'Abbrechen',
   },
   Transfer: {
+    titles: ['', ''],
     searchPlaceholder: 'Suchen',
     itemUnit: 'Eintrag',
     itemsUnit: 'Einträge',
@@ -38,5 +43,17 @@ export default {
   },
   Empty: {
     description: 'Keine Daten',
+  },
+  Icon: {
+    icon: 'Icon',
+  },
+  Text: {
+    edit: 'Editieren',
+    copy: 'Kopieren',
+    copied: 'Erfolgreich kopiert',
+    expand: 'Expandieren',
+  },
+  PageHeader: {
+    back: 'Zurück',
   },
 };
